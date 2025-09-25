@@ -1,0 +1,58 @@
+body
+{
+    background-color: #ffcbf2  ;
+    color: white;
+}
+div
+{
+    background-color: #ffdbf5 ;
+    color: black;
+}
+img
+{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+.gallery
+{
+    display: flex;
+    gap: 10px;
+
+}
+.aboutme
+{
+    max-width: 900px;
+    margin: auto;
+    padding: 15px;
+}
+.aboutmeBlock
+{
+    max-width: 800px;
+    margin: 10px auto;
+    padding: 15px;
+    background-color: #ffeaf5 ;
+}
+
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #ffbadc;
+    padding: 10px;
+    text-align: center;
+}
+
+.menu a {
+    color: #333;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+html {
+    scroll-behavior: smooth;
+}
